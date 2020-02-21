@@ -19,6 +19,9 @@ class Ship {
     public TypeShip type;
     
     public void addCarr(Coord coord) {
-
+        this.coords.push(coord);
     }
 }
+
+
+
